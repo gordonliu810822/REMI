@@ -1,0 +1,14 @@
+Package: REMI
+Type: Package
+Title: REMI(Regression on Marginal Information)
+Version: 0.1.0
+Author: Jin Liu
+Maintainer: Jin Liu <jin.liu@duke-nus.edu.sg>
+Depends: Matrix (>= 1.0-6), utils, foreach
+Description: This package provides functions for fitting REMI: regression with marginal information with applications in genome-wide association studies
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: TRUE
+Imports: Rcpp (>= 0.12.7)
+LinkingTo: Rcpp,RcppArmadillo,BH
+URL:https://github.com/gordonliu810822/REMI
