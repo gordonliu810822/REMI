@@ -238,9 +238,9 @@ List bicSsLasso_Jiao(arma::fvec ytilde, arma::fmat Sigma, int nstep, float eps, 
         
         
         //stopi = i;
-        if ((int)(df(i)) > 500){
-            break;
-        }
+        //if ((int)(df(i)) > 500){
+        //    break;
+        //}
     }
     
      //uvec q1 = find(abs(beta) > 1e-10);

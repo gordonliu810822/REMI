@@ -150,8 +150,8 @@ The REMI-R and REMI-C are fitted as
 > plink_file = "all_chr_1000G_sim_chr16.17.18";
 > summarystat_file1 = "sumdat_sim1.txt"
 > summarystat_file2 = "sumdat_sim2.txt"
-> out = REMI_R(summarystat_file1, plink_file)
-> out2= REMI_C(summarystat_file2, plink_file);
+> out = REMI_R(summarystat_file1, plink_file,epsilon=0.2)
+> out2= REMI_C(summarystat_file2, plink_file,epsilon=0.2);
 \end{verbatim}
 where \texttt{plink$\_$file} is 1000G reference penale data.
 

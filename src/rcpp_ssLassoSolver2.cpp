@@ -448,9 +448,9 @@ List rcpp_bicSsLasso(arma::fvec betah, arma::fvec s2, arma::fmat R, int nstep, f
 		
 
 		//stopi = i;
-		if ((int)(df(i)) > 500){
-			break;
-		}
+		//if ((int)(df(i)) > 500){
+		//	break;
+		//}
 	}
 	
 	/*uvec q1 = find(abs(beta) > 1e-10);
