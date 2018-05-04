@@ -32,7 +32,7 @@ In addition, we provide summary statistics data to produce results from the real
 
 References
 ==========
-J. Huang, Y. Jiao, J. Liu and C. Yang. (2018) REMI: Regression with marginal information with applications in genome-wide association studies.
+J. Huang, Y. Jiao, J. Liu and C. Yang. (2018) [REMI: Regression with marginal information with applications in genome-wide association studies](https://arxiv.org/pdf/1805.01284.pdf).
 
 
 Development
